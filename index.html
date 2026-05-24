@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src = "script.js" defer>  </script>
     <meta charset="UTF-8">
     <title>The Soccer Website</title>
     <link rel="stylesheet" href="style.css">
@@ -8,7 +9,7 @@
 <body>
 
     <h1 style="background-color: whitesmoke; text-align: center;">Messi is the best</h1>
-    
+    <button id = "colorScreen" class = "toggle-button">dark/light</button>
     <p>Why Messi is the best:</p>
     <ul> 
         <li>He is known as a prolific goal scorer, holding numerous records, including the most goals in a calendar year.</li> 
@@ -24,23 +25,29 @@
         <h2>the best player</h2>
         <img class="image" src="https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg" alt="Lionel Messi" width="400">
         <br>
+        <p class="likes"> likes:<span class="count" id="likeB">0</span></p>
+        <button class="like-button" id="buttonL"> like </button>
         <a href="https://messi.com/en/">Lionel Messi official website</a>
         <p>Lionel Messi is an Argentine professional soccer player widely regarded as one of the greatest athletes in the history of the sport.</p>
 
         <h3>RONALDO</h3>
         <img class="image2" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo" width="400">
         <br>
+        <p class="likes"> likes:<span class="count" id="likeL">0</span></p>
+        <button class="like-button" id="buttonB"> like </button>
         <a href="https://cristianoronaldo.com/#cr7">Ronaldo official website</a>
         <p>Cristiano Ronaldo, nicknamed CR7, is a Portuguese professional footballer widely regarded as one of the greatest players of all time.</p>
 
         <h4>NEYMAR</h4>
         <img class="image3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Barcelona_FC_%2851100844503%29_%28cropped%29_2.jpg/500px-Barcelona_FC_%2851100844503%29_%28cropped%29_2.jpg" alt="Neymar Junior" width="400">
         <br>
+                <p class="likes"> likes:<span class="count" id="likeP">0</span></p>
+        <button class="like-button" id="buttonD"> like </button>
         <a href="https://www.neymarjr.com/">Neymar official website</a>
         <p>Neymar is a Brazilian professional footballer widely regarded as one of the top forwards in the world.</p>
     </div>
 
-    <button onclick="alert('Messi is the best!')">Messi is the best</button>
+    <button id = "button">Messi is the best</button>
 
     <video width="640" controls>
         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">

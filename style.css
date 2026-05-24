@@ -1,5 +1,5 @@
 body{
-    background-image:url("https://windows10spotlight.com/wp-content/uploads/2018/07/1cbf533ac406af123b10bad91d95f346.jpg");
+    background-image:url("https://tse3.mm.bing.net/th/id/OIP.DrpDq9aSIqYJRnNlIVnvyAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3");
     background-repeat:no-repeat;
     background-size:cover;
 } 
@@ -10,6 +10,7 @@ body{
     border-color:violet;
     border-radius:20px;
     padding:20px;
+    
 } 
 .image2{
     width:250px;
@@ -26,4 +27,37 @@ body{
     border-color:violet;
     border-radius:20px;
     padding:20px
+}
+ul{
+   background-color:white;
+   text-align:center;
+   color:aqua;
+   border-radius: 100px;
+}
+.toggle-button{
+    color:darkslategrey;
+    font-size:20px;
+    border-radius:20px;
+    background-color:aquamarine;
+    border:2px solid aqua;
+}
+.darkmode{
+    background-image:url("https://wallpapers.com/images/featured/amh1tqh06166z417.jpg");
+    color:white;
+}
+.like-button{
+    color:#89cabd;
+    background-color:gray;
+    border:2px solid #e2f4f5;
+    border-radius:20px;
+    font-size:20px;
+    cursor:pointer;
+    transition:transform  0.6s easy , box-shadow 0.6s easy;
+}
+.like-button:hover {
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.2);
+    transform:translateY(-5px);
+}
+.likes {
+    margin:6px;
 }
